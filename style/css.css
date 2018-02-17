@@ -1,6 +1,6 @@
 *{
     background-color:#313E4E;
-    font-family: "Lithos Pro Regular", sans-serif;
+    font-family: "Amatic SC" ;
 }
 .header {
     background: none;
@@ -17,33 +17,57 @@
     margin-right: 30px;
     line-height: 80px;
     color:bisque;
-    font-size: 15px;
+    
 }
 .main-nav li a{
     float: left;
     margin-right: 30px;
     line-height: 80px;
     color:bisque;
-    font-size: 15px;
+    font-size: 20px;
     padding-left: 30px;
 }
 .main-nav a:hover{
     color: rgb(34, 232, 247);
     text-decoration: underline;
-    font-size: 16px;
+    
    
 }
+
 
 .content{
     color: bisque;
     text-align: center;
+    font-size: 40px;
 }
+
+.content-blog {
+    color: bisque;
+    text-align: left;
+    font-size: 30px;
+
+}
+.first-title{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.link-text{
+    color: bisque;
+    text-align: left;
+    font-size: 25px; 
+}
+
 
 .avatar img{
     max-width: 150px;
     padding-top: 10px;
     margin:10px 10px 10px 10px;
 }
+.blog-img{
+    max-width: 300px;
+    margin:0px 0px 10px 0px;
+}
+.text-font{
+    color: whitesmoke;
+}
 
-
-  
