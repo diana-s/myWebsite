@@ -25,7 +25,7 @@
     margin-right: 30px;
     line-height: 80px;
     color:bisque;
-    font-size: 20px, [if IE] 14px [endif];
+    font-size: 22px;
     padding-left: 30px;
    
 }
@@ -43,13 +43,13 @@
 .content{
     color: bisque;
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .content-blog {
     color: bisque;
     text-align: left;
-    font-size: 30px;
+    font-size: 20px;
 
 }
 .first-title{
@@ -87,16 +87,16 @@
     max-width: 150px;
 }
 
-.text-coach{
+.read-font{
     color: whitesmoke;
-    font-family: Overlock;
-    font-size: 16px;
+    font-family: Muli;
+    font-size: 12px;
     text-align: justify;
 }
 
 .seperate-text{
     color: bisque;
-    font-size: 18px;
+    font-size: 14px;
     font-style: strong;
 }
 .bottom-image{
@@ -104,3 +104,17 @@
     padding-left: 10%;
     max-width: auto;
 }
+#blog-window{
+    height: 350px;
+    margin: 10px 0px;
+    padding: 10px;
+    overflow: auto;
+}
+.scrollbar-dusty-grass::-webkit-scrollbar {
+    width: 12px;
+    background-color: #313E4E; }
+    
+.scrollbar-dusty-grass::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-image: -webkit-linear-gradient(330deg,  rgb(251, 252, 253) 0%, #313E4E 100%);
+        background-image: linear-gradient(120deg, rgb(251, 252, 253) 0%, #313E4E 100%); }
